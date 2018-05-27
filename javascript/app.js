@@ -5,9 +5,11 @@
     var stt;
     var mark = 0;
     function checking() {
-            var ans = document.getElementById("answer").value;
+        var ans = document.getElementById("answer").value;
+        if(ans.length == 0) alert("Vui lòng nhập câu trả lời, không để trống");
+        else {
             var res = ans.toUpperCase();
-            if(res == engarr[run] || res == engarr2[run]) {
+            if(res == engarr[run] || res == engarr2[run] && res != "") {
                 stt = "CORRECT";
                 mark = mark + 1;
             }
@@ -31,4 +33,5 @@
                 tt.style.color = "red";
             }
             document.getElementById("tt").innerHTML = stt;
+        }
     }
