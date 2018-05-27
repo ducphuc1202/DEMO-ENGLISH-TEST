@@ -1,5 +1,5 @@
 .container {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0 auto;
     max-width: 100%;
 }
@@ -28,15 +28,15 @@ div {
     display: inline-block;
 }
 input {
-    width: 500px;
-    height: 38px;
+    width: 350px;
+    height: 30px;
     border: 1px solid blue;
     padding: 10px;
     font-size: 20px;
 }
 button {
     width: 200px;
-    height: 60px;
+    height: 52px;
     background-color: cadetblue;
     color: white;
     border: none;
@@ -49,33 +49,35 @@ button:hover, .unit:hover {
 .vie {
     background-color: brown;
     color: white;
-    font-size:40px;
+    font-size:30px;
     text-align: center;
     display: inline-block;
-    height: 62px;
-    line-height: 60px;
+    height: 52px;
+    line-height: 52px;
     margin-right: 20px;
+    border: 1px solid;
 }
 .unit {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
     background-color:crimson;
     margin-bottom: 50px;
-    width: 210px;
-    height: 200px;
-    line-height: 200px;
+    width: 180px;
+    height: 170px;
+    line-height: 170px;
     margin-left: 45%;
     border-radius: 100%;
     border: none;
 }
 .intro {
-    width: 70%;
+    width: 85%;
     background-color: coral;
     padding: 10px;
     text-align: left;
     opacity: 0.7;
     color: black;
+    font-size: 18px;
 }
 .footer {
     background-color: black;
