@@ -21,7 +21,7 @@
             if(run < viearr.length)
                     document.getElementById("vi").innerHTML = viearr[run];
             else {
-                alert("Số điểm của bạn là: " + mark);
+                alert("Số điểm của bạn là: " + mark + " / " + viearr.length);
             }
             document.getElementById("tv").innerHTML = viearr[run-1];
             document.getElementById("ta").innerHTML = res;
