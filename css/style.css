@@ -1,7 +1,12 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
 .container {
     font-size: 20px;
     margin: 0 auto;
     max-width: 100%;
+    
 }
 div {
     display: inline-block;
@@ -86,4 +91,31 @@ button:hover, .unit:hover {
     height: 50px;
     line-height: 50px;
     margin-top: 140px;
+}
+.next {
+    background-color: deeppink;
+    color: white;
+    display: inline-block;
+    border-radius: 100%;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    font-weight: 20px;
+    cursor: pointer;
+}
+.next-text {
+    display: none;
+}
+.next:hover {
+    width: 200px;
+    border-radius: 80px 80px;
+}
+.next:hover > .next-text {
+    display: inline-block;
+    line-height: 0.2;
+}
+.next a {
+    color: white;
+    text-decoration: none;
 }
